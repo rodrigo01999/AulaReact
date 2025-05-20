@@ -4,6 +4,8 @@ import Exercicio2 from "./Componentes/Exercicio2"
 import Exercicio3 from "./Componentes/Exercicio3"
 import Exercicio4 from "./Componentes/exercicio4"
 import Exercicio5 from "./Componentes/Exercicio5"
+import Exercicio6 from "./Componentes/Exercicio6"
+
 export default function App()
 {
   return (
@@ -42,6 +44,10 @@ export default function App()
       <h3>Chamada para o Exercício 5</h3>
       <Exercicio5 consulta="10"/>
       <Exercicio5 consulta="20"/>
+
+      <hr />
+      <h3>Chamada para o Exercício 6</h3>
+      <Exercicio6 q="2" p="5"/>
       
     </div>
    
