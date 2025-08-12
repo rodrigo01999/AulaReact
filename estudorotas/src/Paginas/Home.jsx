@@ -11,6 +11,12 @@ export default function Home()
             <li><a href="/rj">RioJaneiro</a></li>
             <li><a href="/mg">MinasGerasis</a></li>
             <li><a href="/es">EspiritoSanto</a></li>
+            <li><a href="/rs">RioGrandeSul</a></li>
+            <li><a href="/sc">SantaCatarina</a></li>
+            <li><a href="/pr">Parana</a></li>
+            <li><a href="/mt">MatoGrosso</a></li>
+            <li><a href="/ms">MatoGrossoSul</a></li>
+            <li><a href="/go">Goias</a></li>
            </ul>
         </div>
     )
