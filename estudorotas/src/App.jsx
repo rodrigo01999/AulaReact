@@ -27,7 +27,7 @@ import Para from "./Paginas/Para";
 import Rondonia from "./Paginas/Rondonia";
 import Roraima from "./Paginas/Roraima";
 import Tocantins from "./Paginas/Tocantins";
-import Amazonas from "./Paginas/Amazonas";
+import Amazonia from "./Paginas/Amazonia";
 
 export default function App()
 {
@@ -61,7 +61,7 @@ export default function App()
             <Route path="/ro" element={<Rondonia />} />
             <Route path="/rr" element={<Roraima />} />
             <Route path="/to" element={<Tocantins />} />
-            <Route path="/am" element={<Amazonas />} />
+            <Route path="/am" element={<Amazonia />} />
            </Routes>
         </BrowserRouter>
     );
