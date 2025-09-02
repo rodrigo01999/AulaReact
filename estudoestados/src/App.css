@@ -1,0 +1,59 @@
+body
+
+{
+margin:0;
+padding:0;
+background-color: rgb(149, 89, 205);
+}
+
+h1
+{
+ background-color: rgb(67, 25, 107);
+ color: whitesmoke;
+ margin:0;
+ padding:20px;
+ text-align: center;
+
+}
+.conteudo
+{
+    background-color: aliceblue;
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    border-radius: 10px;
+}
+
+.conteudo a
+{
+    color: rgb(190, 40, 236);
+    text-decoration: none;
+}
+
+input[type="text"]
+{
+ 
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+
+
+}
+
+
+input[type="button"]
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+p
+{
+    color: rgb(229, 130, 251);
+}
