@@ -1,23 +1,27 @@
-export default function Exercicio4() {
+export default function Exercicio6(q,p) 
+{
+    let st =Number(q)*Number(p)
+    let d=(st*10)/100;
+    let vf= st-d;
     return (
       <div>
-      <h1>Exercicio 4</h1>
+      <h1>Exercicio 6</h1>
     <div className="conteudo">
      
     
      
      <form>
-      <p>digite o valor da base<br />
+      <p>digite a quantidade<br />
       <input type="text" />
 
       </p>
-      <p>digite o valor da altura<br />
+      <p>digite o preço<br />
       <input type="text" />
 
       </p>
      
       <p>
-        <input type="button" value="exercicio 4"/>
+        <input type="button" value="exercicio 6"/>
         </p>
 
         <p>
@@ -30,4 +34,3 @@ export default function Exercicio4() {
     </div>
     );
   }
-  

@@ -18,6 +18,10 @@ export default function Exemplo2() {
       <p>
         <input type="button" value="calcular media"/>
         </p>
+
+        <p>
+            <a href="/">voltar para home</a>
+           </p>
      </form>
      </div>
       
